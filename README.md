@@ -34,16 +34,13 @@ public class EvaluateExpression:
 ## Usage
 Enter an expression that you want to evaluate. Accepted operators: * / + - 
 Numbers must be between -1000000 and 1000000, inclusive. 
+Examples:  
 
-Examples:
--input: 5+4+3+2
--output: 14
+- input: 5+4+3+2 --> output: 14
 
-- input: 5+3/4/2-3-5
-- output: -2.625
+- input: 5+3/4/2-3-5 --> output: -2.625
 
-- input: 409 + 34/4.s24
-- output: 4.s is not a valid input.
+- input: 409 + 34/4.s24 --> output: 4.s is not a valid input.
 
 ## Future Work
 * Implement parenthesis and exponent evaluation
